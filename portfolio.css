@@ -1,0 +1,114 @@
+body{
+    background-image: url(./background2.webp);
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display:inline;
+    margin-right: 60px;
+    margin-bottom: -10px;
+}
+#div2{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#FF0000,#ffff00,#FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top:-50px;
+    margin-left: 20px;
+}          
+#div2:hover{
+    background: -webkit-linear-gradient(#eee,#333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}     
+li:hover{
+    text-transform: uppercase;
+    font-size:medium;
+    color: aquamarine;
+    cursor:pointer;
+}
+#div2::first-letter{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    margin-top: 20px;
+}
+main{
+    display: flex;
+}
+#main1{
+    color: rgb(252, 252, 251);
+    font-family: 'Bitter', serif;
+}
+#div3{
+    width: 40rem;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+#div4{
+    width: 35rem;
+}
+#para{
+    color: wheat;
+    font-family: 'Bitter', serif;
+    font-family: 'Inconsolata', monospace;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#subdiv{
+    background-color: rgb(65, 140, 25);
+    border-radius: 50px;
+    width: 300px;
+    
+}
+#img{
+    width: 30px;
+    margin-left: -230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    color:rgb(11, 11, 11);
+    text-align: center;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+h4{
+    margin-top: -40px;
+    margin-left: -280px;
+    font-size: larger;
+}
+#subdiv:hover{
+    background-color: aquamarine;
+}
+footer{
+    background-color: rgb(156, 154, 154);
+    border-radius: 40px;
+    margin-top: 200px;
+    margin-left: 35rem;
+    width:268px;
+    height: 40px;
+}
+.lis{
+
+    margin-left: -18px;
+}
+.imgcls{
+    margin-top:5px;
+}
+#ul{
+    display: flex;
+}
+.imgcls:hover{
+    border: solid 1px;
+    background-color: lightskyblue;
+}
